@@ -56,9 +56,10 @@
     /* Slightly darker green for hover states */
 
     /* Background colors */
-    --color-bg-light: #F9F7F4;
+    
+    --color-bg-light: #F7F4F0;
     /* Overall soft background */
-    --color-bg-section: #EFEAE5;
+    --color-bg-section:   #f6efe9;
     /* Light cream background for sections */
     --color-bg-card: #FFFFFF;
     /* Cards and content blocks */
