@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import profileImg from '../assets/img/Profile.png'; 
+import profileImg from '../assets/img/Profile1.png'; 
 // import { profileImg } from 'src\assets\Profile.png';
 
 function Home() {
