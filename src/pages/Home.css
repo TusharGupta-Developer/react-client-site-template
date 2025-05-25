@@ -1,0 +1,107 @@
+/*=============== HOME ===============*/
+.home {
+    padding-block-start: 1.5rem;
+    padding-block-start: 4rem;
+    background-color: var(--color-bg-section);
+}
+
+
+.home__container {
+    row-gap: 2rem;
+    padding-top: 1rem;
+}
+
+.home__img {
+    /* width: 220px; */
+    justify-self: center;
+    mask-image: linear-gradient(to bottom, hsla(var(--hue), 40%, 16%), 60%,
+            transparent 100%);
+
+    width: 500px;
+}
+
+.home__name {
+    font-size: var(--font-size-heading-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    word-break: break-word;
+    margin-bottom: .4rem;
+    line-height: 3rem;
+}
+
+.home__profession {
+    position: relative;
+    font-size: var(--font-weight-regular);
+    color: var(--color-text-secondary);
+    /* font-size: 1.4rem; */
+    
+}
+
+.home__profession::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -.2rem;
+    height: 3px;
+    width: 35%;
+    background-color: var(--text-color);
+}
+
+.home__scroll {
+    color: var(--text-color);
+    display: inline-flex;
+    column-gap: .5rem;
+    align-items: center;
+
+    justify-self: center;
+    margin-top: 3rem;
+}
+
+.home__scroll--box {
+    background-color: var(--color-text-accent);
+    height: 32px;
+    width: 32px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.home__scroll-text {
+    font-weight: var(--font-semi-bold);
+}
+
+/* Animate scroll icon */
+
+.home__scroll--box>i {
+
+    animation: scroll-down 3s infinite;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(.6rem);
+        opacity: 0;
+    }
+
+    /* 0%: transform: translateY(-1rem);: Moves the element up by 1rem.
+opacity: 0;: Makes the element fully transparent.
+
+50%:
+transform: translateY(0);: Moves the element back to its original position.
+opacity: 1;: Makes the element fully opaque.
+
+100%:
+transform: translateY(0.6rem);: Moves the element down by 0.6rem.
+opacity: 0;: Makes the element fully transparent. */
+}

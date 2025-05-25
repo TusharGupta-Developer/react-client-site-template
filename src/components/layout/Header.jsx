@@ -4,6 +4,28 @@ import { siteConfig } from './../../config/siteConfig';
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const [activeLink, setActiveLink] = useState('#home');
+
+  const handleScroll = () => {
+    const scrollY = window.pageYOffset;
+    const sections = ['home', 'work', 'info', 'services', 'contact'];
+
+    for (let id of sections) {
+      const section = document.getElementById(id);
+      if (section) {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          setActiveLink(`#${id}`);
+        }
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header className="header" id="header">

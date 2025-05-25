@@ -29,14 +29,14 @@
 } */
 
 .nav__logo {
-    color: var(--title-color);
-    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-bold);
 }
 
 .nav__toggle,
 .nav__close {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--color-text-primary);
     cursor: pointer;
 }
 
