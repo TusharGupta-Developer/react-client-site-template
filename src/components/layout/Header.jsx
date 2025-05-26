@@ -6,34 +6,34 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('#home');
 
-  const handleScroll = () => {
-    const scrollY = window.pageYOffset;
-    const sections = ['home', 'work', 'info', 'services', 'contact'];
+   useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.pageYOffset;
+      const sections = ['home', 'work', 'info', 'services', 'contact'];
 
-    for (let id of sections) {
-      const section = document.getElementById(id);
-      if (section) {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-          setActiveLink(`#${id}`);
+      // Highlight active link logic
+      for (let id of sections) {
+        const section = document.getElementById(id);
+        if (section) {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            setActiveLink(`#${id}`);
+          }
         }
       }
-    }
-  };
 
-  // Header blur effect logic
-  const header = document.getElementById("header");
-  if (header) {
-    if (scrollY > 50) {
-      header.classList.add("blur__header");
-    } else {
-      header.classList.remove("blur__header");
-    }
-  }
+      // Header blur effect logic
+      const header = document.getElementById("header");
+      if (header) {
+        if (scrollY > 50) {
+          header.classList.add("blur__header");
+        } else {
+          header.classList.remove("blur__header");
+        }
+      }
+    };
 
-
-  useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
