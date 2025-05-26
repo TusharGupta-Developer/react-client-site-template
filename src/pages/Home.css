@@ -44,7 +44,7 @@
     bottom: -.2rem;
     height: 3px;
     width: 35%;
-    background-color: var(--text-color);
+    background-color: var(--color-text-secondary);
 }
 
 .home__scroll {
