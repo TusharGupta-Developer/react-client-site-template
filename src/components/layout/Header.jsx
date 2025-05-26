@@ -22,6 +22,17 @@ export default function Header() {
     }
   };
 
+  // Header blur effect logic
+  const header = document.getElementById("header");
+  if (header) {
+    if (scrollY > 50) {
+      header.classList.add("blur__header");
+    } else {
+      header.classList.remove("blur__header");
+    }
+  }
+
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
