@@ -14,8 +14,8 @@
 .home__img {
     /* width: 220px; */
     justify-self: center;
-    mask-image: linear-gradient(to bottom, hsla(var(--hue), 40%, 16%), 60%,
-            transparent 100%);
+    mask-image: linear-gradient(to bottom, hsla(210, 40%, 16%, 1), 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, hsla(210, 40%, 16%, 1), 60%, transparent 100%);
 
     width: 500px;
 }
@@ -34,7 +34,7 @@
     font-size: var(--font-weight-regular);
     color: var(--color-text-secondary);
     /* font-size: 1.4rem; */
-    
+
 }
 
 .home__profession::after {
