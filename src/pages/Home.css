@@ -22,7 +22,7 @@
 
 .home__name {
     font-size: var(--font-size-heading-lg);
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-regular);
     color: var(--color-text-primary);
     word-break: break-word;
     margin-bottom: .4rem;
@@ -31,13 +31,13 @@
 
 .home__profession {
     position: relative;
-    font-size: var(--font-weight-regular);
+    font-size: var(--font-size-body);
     color: var(--color-text-secondary);
     /* font-size: 1.4rem; */
 
 }
 
-.home__profession::after {
+/* .home__profession::after {
     content: "";
     position: absolute;
     left: 0;
@@ -45,7 +45,7 @@
     height: 3px;
     width: 35%;
     background-color: var(--color-text-secondary);
-}
+} */
 
 .home__scroll {
     color: var(--text-color);
@@ -54,7 +54,7 @@
     align-items: center;
 
     justify-self: center;
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
 }
 
 .home__scroll--box {
