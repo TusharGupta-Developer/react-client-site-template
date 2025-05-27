@@ -21,7 +21,7 @@ button {
 }
 
 body {
-    background-color: var(--color-bg-light);
+    background-color: var(--color-bg-card);
     color: var(--color-text-primary);
     font-family: var(--font-secondary);
 }

@@ -34,6 +34,10 @@ export const siteConfig = {
         { path: "/contact", label: "Contact" },
     ],
 
+    about: {
+        shortDescription: "Hi, I'm a dedicated therapist here to support you on your path to healing and self-discovery. I offer a safe, understanding space where you can feel heard, valued, and empowered. Let’s take the first step toward peace and growth together.",
+    },
+
     services: [
         {
             title: "Individual Therapy",
