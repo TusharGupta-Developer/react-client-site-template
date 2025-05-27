@@ -18,7 +18,7 @@ function Home() {
 
 
             {/* .home__scroll-text|| Recent Works  */}
-            <a href="#work" className="home__scroll">
+            <a href="#about" className="home__scroll">
               <div className="home__scroll--box">
                 <i className="ri-arrow-down-line"></i>
               </div>

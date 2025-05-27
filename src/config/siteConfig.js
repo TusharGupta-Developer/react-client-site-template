@@ -54,7 +54,33 @@ export const siteConfig = {
             description: "Tools and strategies to find balance and calm.",
             icon: "🌿",
         },
+        {
+            title: "Depression Support",
+            description: "Compassionate care and practical tools for managing depression.",
+            icon: "🌧️",
+        },
+        {
+            title: "Self-Esteem & Confidence Building",
+            description: "Discover your strengths and build a more confident you.",
+            icon: "🌟",
+        },
+        {
+            title: "Mindfulness & Meditation Guidance",
+            description: "Learn techniques to stay present and cultivate inner peace.",
+            icon: "🧘",
+        },
+        // {
+        //     title: "Grief & Loss Counseling",
+        //     description: "Supportive space to process grief and find healing.",
+        //     icon: "💔",
+        // },
+        // {
+        //     title: "Work & Career Counseling",
+        //     description: "Overcome burnout and find purpose in your professional life.",
+        //     icon: "💼",
+        // },
     ],
+
 
     contact: {
         email: "info@tranquilminds.com",
