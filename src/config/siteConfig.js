@@ -60,12 +60,12 @@ export const siteConfig = {
             icon: "🌧️",
         },
         {
-            title: "Self-Esteem & Confidence Building",
+            title: "Confidence Building",
             description: "Discover your strengths and build a more confident you.",
             icon: "🌟",
         },
         {
-            title: "Mindfulness & Meditation Guidance",
+            title: "Meditation Guidance",
             description: "Learn techniques to stay present and cultivate inner peace.",
             icon: "🧘",
         },

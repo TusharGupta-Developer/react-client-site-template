@@ -7,8 +7,8 @@ const iconMap = {
     "Couples Counseling": "ri-heart-line",
     "Anxiety & Stress Management": "ri-mind-map",
     "Depression Support": "ri-emotion-unhappy-line",
-    "Self-Esteem & Confidence Building": "ri-sparkling-line",
-    "Mindfulness & Meditation Guidance": "ri-meditation-line",
+    "Confidence Building": "ri-sparkling-line",
+    "Meditation Guidance": "ri-heart-pulse-line",
     "Grief & Loss Counseling": "ri-emotion-sad-line",
     "Work & Career Counseling": "ri-briefcase-line",
 };
