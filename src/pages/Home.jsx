@@ -23,7 +23,7 @@ function Home() {
                 <i className="ri-arrow-down-line"></i>
               </div>
 
-              <span className="home__scroll-text">Recent Works
+              <span className="home__scroll-text">About Me
               </span>
             </a>
 

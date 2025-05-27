@@ -58,7 +58,7 @@
 }
 
 .home__scroll--box {
-    background-color: var(--color-text-accent);
+    background-color: var(--color-success);
     height: 32px;
     width: 32px;
     display: grid;

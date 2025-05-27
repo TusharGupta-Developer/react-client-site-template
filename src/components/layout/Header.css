@@ -72,8 +72,8 @@
 
 .nav__link {
     position: relative;
-    color: var(--title-color);
-    font-weight: var(--font-semi-bold);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-semibold);
     transition: color .4s;
 }
 
@@ -81,7 +81,7 @@
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--first-color-light);
+    background-color: var(--color-text-accent);
     position: absolute;
     left: 0;
     bottom: -.5rem;
@@ -90,7 +90,7 @@
 }
 
 .nav__link:hover {
-    color: var(--first-color-light);
+    color: var(--color-text-accent);
 }
 
 .nav__link:hover::after {
@@ -111,7 +111,7 @@
 /* Active Link */
 
 .active-link {
-    color: var(--first-color-light);
+    color: var(--color-text-accent);
 }
 
 .active-link::after {
