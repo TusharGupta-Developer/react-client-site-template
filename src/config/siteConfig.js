@@ -87,19 +87,19 @@ export const siteConfig = {
             {
                 name: "Emily Parker",
                 title: "Wellness Coach, BloomWell",
-                image: "public/assets/img/Testimonials/IndividualImagesWomen/pexels-yankrukov-7693223.jpg",
+                image: "assets/img/Testimonials/IndividualImagesWomen/pexels-yankrukov-7693223.jpg",
                 message: "The guidance I received was transformative. I felt truly heard and supported every step of the way. An incredible experience!"
             },
             {
                 name: "Clara Bennett",
                 title: "HR Manager, Zenith Solutions",
-                image: "public/assets/img/Testimonials/IndividualImagesWomen/Smiling Woman.jpg",
+                image: "assets/img/Testimonials/IndividualImagesWomen/Smiling Woman.jpg",
                 message: "Professional, compassionate, and insightful — I couldn't have asked for a better experience. Highly recommend to anyone seeking real change."
             },
             {
                 name: "James Carter",
                 title: "Freelance Designer",
-                image: "public/assets/img/Testimonials/IndividualImagesWomen/Young Man in Casual Attire.jpg",
+                image: "assets/img/Testimonials/IndividualImagesWomen/Young Man in Casual Attire.jpg",
                 message: "A calming environment and a highly skilled team. I finally feel balanced, focused, and ready to take on anything."
             },
 
