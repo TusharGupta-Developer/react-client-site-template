@@ -28,10 +28,11 @@ export const siteConfig = {
     },
 
     navLinks: [
-        { path: "/", label: "Home" },
-        { path: "/about", label: "About" },
-        { path: "/services", label: "Services" },
-        { path: "/contact", label: "Contact" },
+        { path: "/#home", label: "Home" },
+        { path: "/#about", label: "About" },
+        { path: "/#services", label: "Services" },
+        { path: "/#testimonial", label: "Testimonials" },
+        { path: "/#contact", label: "Contact" },
     ],
 
     about: {
@@ -109,19 +110,19 @@ export const siteConfig = {
             {
                 name: "Nina & Marcus",
                 title: "Newlyweds",
-                image: "https://images.pexels.com/photos/3699321/pexels-photo-3699321.jpeg",
+                image: "assets/img/Testimonials/CoupleImages/pexels-elain-yao-754494-2277778.jpg",
                 message: "We felt seen and understood from the moment we walked in. The sessions brought us even closer. Thank you, Tranquil Minds!"
             },
             {
                 name: "Ava & Daniel",
                 title: "Young Couple",
-                image: "https://images.pexels.com/photos/3699322/pexels-photo-3699322.jpeg",
+                image: "public/assets/img/Testimonials/CoupleImages/pexels-lilen-diaz-1025474869-32286488.jpg",
                 message: "The team helped us communicate better and reconnect emotionally. It was more than therapy — it was healing."
             },
             {
                 name: "Lena & Oliver",
                 title: "Engaged Partners",
-                image: "https://images.pexels.com/photos/3699323/pexels-photo-3699323.jpeg",
+                image: "public/assets/img/Testimonials/CoupleImages/pexels-vlada-karpovich-4873572.jpg",
                 message: "Every session brought us closer. We feel more aligned, more in love, and ready for our future together. Highly recommend!"
             },
 

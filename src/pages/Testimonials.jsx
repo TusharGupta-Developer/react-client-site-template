@@ -1,31 +1,42 @@
-import React from 'react'
+// src/components/pages/Testimonial.jsx
+import React from "react";
+import { siteConfig } from "../config/siteConfig";
 import './Testimonials.css'
-import { siteConfig } from '../config/siteConfig'
 
-function Testimonials() {
-  const individual = siteConfig.testimonials.Individual;
-  const couple = siteConfig.testimonials.Couple;
+const Testimonial = () => {
+    const { testimonials } = siteConfig;
 
-  return (
-    <>
-      {individual.map((individualTestimonials, index) => (
-        <div className="testimonial-card">
-          <div key={index} className="single-testimonial">
-            <img
-              src={individualTestimonials.image}
-              alt="Client"
-              className="testimonial-image"
-            />
-            <h3 className="testimonial-name">{individualTestimonials.name}</h3>
-            <p className="testimonial-title">{individualTestimonials.title}</p>
-            <p className="testimonial-text">
-              {individualTestimonials.message}
-            </p>
-          </div>
-        </div>
-      ))}
-    </>
-  )
-}
+    return (
+        <section className="testimonial section" id="testimonial">
+            <h2 className="section__title">Client Testimonials</h2>
 
-export default Testimonials
+            <div className="testimonial__container container grid">
+                {Object.entries(testimonials).map(([type, group]) => (
+                    <div key={type} className="testimonial__group">
+                        <h3 className="testimonial__subtitle">{type} Therapy</h3>
+                        <div className="testimonial__cards">
+                            {group.map((testimonial, index) => (
+                                <article className="testimonial__card" key={index}>
+                                    <div className="testimonial__image-wrapper">
+                                        <img
+                                            src={testimonial.image}
+                                            alt={testimonial.name}
+                                            className="testimonial__img"
+                                        />
+                                    </div>
+                                    <div className="testimonial__content">
+                                        <p className="testimonial__message">"{testimonial.message}"</p>
+                                        <h4 className="testimonial__name">{testimonial.name}</h4>
+                                        <p className="testimonial__title">{testimonial.title}</p>
+                                    </div>
+                                </article>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+};
+
+export default Testimonial;
