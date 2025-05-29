@@ -116,13 +116,13 @@ export const siteConfig = {
             {
                 name: "Ava & Daniel",
                 title: "Young Couple",
-                image: "public/assets/img/Testimonials/CoupleImages/pexels-lilen-diaz-1025474869-32286488.jpg",
+                image: "assets/img/Testimonials/CoupleImages/pexels-lilen-diaz-1025474869-32286488.jpg",
                 message: "The team helped us communicate better and reconnect emotionally. It was more than therapy — it was healing."
             },
             {
                 name: "Lena & Oliver",
                 title: "Engaged Partners",
-                image: "public/assets/img/Testimonials/CoupleImages/pexels-vlada-karpovich-4873572.jpg",
+                image: "assets/img/Testimonials/CoupleImages/pexels-vlada-karpovich-4873572.jpg",
                 message: "Every session brought us closer. We feel more aligned, more in love, and ready for our future together. Highly recommend!"
             },
 
