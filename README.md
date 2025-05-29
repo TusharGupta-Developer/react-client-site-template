@@ -74,7 +74,7 @@ Feel free to reach out for freelance, collaboration, or job opportunities.
 
 ## 📜 License
 
-This project is for educational and portfolio purposes. For commercial use, please contact the author(© 2025 Tushar Gupta. All rights reserved. This project is not open source. Unauthorized use or distribution is strictly prohibited.)
+This project is for educational and portfolio purposes. For commercial use, please contact the author **(**© 2025 Tushar Gupta. All rights reserved. This project is **not open source**. Unauthorized use or distribution is strictly prohibited.)
 
 ---
 
