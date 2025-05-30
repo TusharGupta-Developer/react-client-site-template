@@ -19,15 +19,7 @@ function App() {
         <About />
         <Services />
         <Testimonials />
-        <section className="section" id="contact" style={{ backgroundColor: "var(--color-bg-section)" }}>
-          <h2 className="section__title" style={{ marginBottom: '-.5rem' }}>Gallery</h2>
-
-          <div className="container grid">
-            {/* <div style={{ height: '22rem', position: 'relative' }}> */}
-            <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} />
-            {/* </div> */}
-          </div>
-        </section>
+        <CircularGallery />
         <Contact />
       </main>
       <Footer />
