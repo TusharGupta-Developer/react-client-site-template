@@ -9,6 +9,7 @@ import Testimonials from './pages/Testimonials';
 import Contact from "./pages/Contact";
 import Footer from "./components/layout/Footer";
 import CircularGallery from './components/pages/CircularGallery';
+import ScrollToTop from './components/common/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
