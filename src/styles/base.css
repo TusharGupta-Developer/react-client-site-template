@@ -103,3 +103,24 @@ img {
 .button:hover {
     background-color: var(--color-primary-hover);
 }
+
+/*=============== SCROLL BAR ===============*/
+/* WebKit/Blink (Chrome, Edge, Safari) */
+ ::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+} 

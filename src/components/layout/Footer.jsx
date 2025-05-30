@@ -22,7 +22,8 @@ const Footer = () => {
                             <li><a href="#home" className="footer__link">Home</a></li>
                             <li><a href="#about" className="footer__link">About</a></li>
                             <li><a href="#services" className="footer__link">Services</a></li>
-                            <li><a href="#testimonials" className="footer__link">Testimonials</a></li>
+                            <li><a href="#testimonial" className="footer__link">Testimonials</a></li>
+                            <li><a href="#gallery" className="footer__link">Gallery</a></li>
                             <li><a href="#contact" className="footer__link">Contact</a></li>
                         </ul>
                     </div>

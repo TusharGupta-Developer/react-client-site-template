@@ -11,7 +11,7 @@
 
     --header-height: 3.5rem;
 
-    
+
     /* Font Sizes - Desktop */
     --font-size-heading-lg: 3rem;
     /* Hero H1 */
@@ -56,10 +56,10 @@
     /* Slightly darker green for hover states */
 
     /* Background colors */
-    
+
     --color-bg-light: #F7F4F0;
     /* Overall soft background */
-    --color-bg-section:   #f6efe9;
+    --color-bg-section: #f6efe9;
     /* Light cream background for sections */
     --color-bg-card: #FFFFFF;
     /* Cards and content blocks */
@@ -83,6 +83,14 @@
     /* Success state */
     --color-success: #6BA57F;
     /* Success messages or states */
+
+    /* Scrollbar Color Palette Based on Website Theme */
+    --scrollbar-track: hsl(0, 0%, 95%);
+    /* Light gray for the track */
+    --scrollbar-thumb: hsl(220, 14%, 75%);
+    /* Soft gray-blue for the thumb */
+    --scrollbar-thumb-hover: hsl(220, 14%, 65%);
+    /* Slightly darker on hover */
 }
 
 @media screen and (min-width: 1150px) {
