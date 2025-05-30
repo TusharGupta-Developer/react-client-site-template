@@ -134,40 +134,40 @@ export const siteConfig = {
     circularGallery: [
         {
             name: "Dr. Sophia Miller",
-            image: "public/assets/img/Gallery/Therapist/pexels-alex-green-5699431.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-alex-green-5699431.jpg",
         },
         {
             name: "Dr. James Foster",
-            image: "public/assets/img/Gallery/Therapist/pexels-alex-green-5699456.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-alex-green-5699456.jpg",
         },
         {
             name: "Dr. Elena Moore",
-            image: "public/assets/img/Gallery/Therapist/pexels-alex-green-5699469.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-alex-green-5699469.jpg",
         },
         {
             name: "Dr. Samuel Hayes",
-            image: "public/assets/img/Gallery/Therapist/pexels-cottonbro-4098152.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4098152.jpg",
         },
         {
             name: "Dr. Priya Shah",
-            image: "public/assets/img/Gallery/Therapist/pexels-cottonbro-4098169.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4098169.jpg",
         },
         {
             name: "Dr. Amir Rahman",
-            image: "public/assets/img/Gallery/Therapist/pexels-cottonbro-4100638.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4100638.jpg",
         },
         {
-            image: "public/assets/img/Gallery/Therapist/pexels-cottonbro-4100661.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4100661.jpg",
         },
         {
-            image: "public/assets/img/Gallery/Therapist/pexels-cottonbro-4101143.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4101143.jpg",
         },
         {
-            image: "public/assets/img/Gallery/Therapist/pexels-shvets-production-7176224.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-shvets-production-7176224.jpg",
         },
         {
             name: "Dr. Amir Rahman",
-            image: "public/assets/img/Gallery/Therapist/pexels-shvets-production-7176319.jpg",
+            image: "assets/img/Gallery/Therapist/pexels-shvets-production-7176319.jpg",
         },
     ],
 
