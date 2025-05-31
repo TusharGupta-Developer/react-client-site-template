@@ -1,8 +1,28 @@
+.about{
+    background-color: var(--color-bg-section);
+}
 .about__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     align-items: center;
-    gap: 2rem;
+    row-gap: 3rem;
+}
+
+.info__title {
+  position: relative;
+  /* font-size: var(--font-size-small); */
+  color: var( --color-text-secondary);
+  /* margin-bottom: 1rem; */
+}
+
+.info__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -.5rem;
+  height: 2px;
+  width: 20px;
+  background-color: var(--color-text-secondary);
 }
 
 .about__img {
@@ -12,6 +32,7 @@
     mask-image: linear-gradient(to bottom, hsla(210, 40%, 16%, 1), 60%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, hsla(210, 40%, 16%, 1), 60%, transparent 100%);
     justify-self: center;
+    margin-top: 2rem;
 }
 
 .about__content {
@@ -19,23 +40,55 @@
 }
 
 .about__description {
-    margin: 1rem 0 2rem;
+    /* margin: 1rem 0 2rem; */
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-regular);
     color: var(--color-text-secondary);
+    margin-bottom: 1rem;
 }
 
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
     color: #fff;
-    border-radius: 2rem;
+    /* border-radius: 0; */
     text-decoration: none;
     font-weight: 500;
     transition: background-color 0.3s ease;
+    text-align: center;
 }
 
 .button:hover {
     background-color: var(--color-primary-hover);
+}
+
+span {
+  color: var(--color-success);
+  font-weight: 600;
+}
+
+/* EXPERIENCE */
+.experience__content {
+    row-gap: 2rem;
+}
+
+.experience__data {
+    row-gap: 1rem;
+}
+
+.experience__company {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+}
+
+.experience__profession {
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+
+.experience__date {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: .75rem;
 }

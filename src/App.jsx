@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      {/* <main style={{ paddingTop: "7rem", paddingBottom: "7rem" }}> */}
+      <main >
         <Home />
         <About />
         <Services />

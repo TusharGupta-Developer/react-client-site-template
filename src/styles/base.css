@@ -16,12 +16,12 @@ input,
 textarea,
 button {
     font-family: var(--font-secondary);
-    font-size: var(--font-size-body);
+    font-size: 1rem;
     font-weight: var(--font-weight-regular);
 }
 
 body {
-    background-color: var(--color-bg-card);
+    background-color: var(--color-bg);
     color: var(--color-text-primary);
     font-family: var(--font-secondary);
 }
@@ -74,7 +74,6 @@ img {
 }
 
 .section {
-    display: block;
     padding-block: 5rem 2rem;
 }
 

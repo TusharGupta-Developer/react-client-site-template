@@ -2,7 +2,6 @@
 .home {
     padding-block-start: 1.5rem;
     padding-block-start: 4rem;
-    background-color: var(--color-bg-section);
 }
 
 
@@ -105,3 +104,5 @@ opacity: 1;: Makes the element fully opaque.
 transform: translateY(0.6rem);: Moves the element down by 0.6rem.
 opacity: 0;: Makes the element fully transparent. */
 }
+
+ 

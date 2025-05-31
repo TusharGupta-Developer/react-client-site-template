@@ -1,39 +1,39 @@
 import { useState, useEffect } from 'react';
-import './Header.css'
+import './Header.css';
 import { siteConfig } from './../../config/siteConfig';
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('#home');
 
-   useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.pageYOffset;
-      const sections = ['home', 'work', 'info', 'services', 'contact'];
+  const handleScroll = () => {
+    const scrollY = window.pageYOffset;
+    const sections = ['home', 'work', 'info', 'services', 'contact'];
 
-      // Highlight active link logic
-      for (let id of sections) {
-        const section = document.getElementById(id);
-        if (section) {
-          const sectionTop = section.offsetTop - 100;
-          const sectionHeight = section.offsetHeight;
-          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-            setActiveLink(`#${id}`);
-          }
+    for (let id of sections) {
+      const section = document.getElementById(id);
+      if (section) {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          setActiveLink(`#${id}`);
         }
       }
+    }
+  };
 
-      // Header blur effect logic
-      const header = document.getElementById("header");
-      if (header) {
-        if (scrollY > 50) {
-          header.classList.add("blur__header");
-        } else {
-          header.classList.remove("blur__header");
-        }
-      }
-    };
+  // Header blur effect logic
+  const header = document.getElementById("header");
+  if (header) {
+    if (scrollY > 50) {
+      header.classList.add("blur__header");
+    } else {
+      header.classList.remove("blur__header");
+    }
+  }
 
+
+  useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);

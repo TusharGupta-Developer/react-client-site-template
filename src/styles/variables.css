@@ -12,9 +12,10 @@
     --header-height: 3.5rem;
 
 
-    /* Font Sizes - Desktop */
+    /* Font Sizes - Desktop  */
     --font-size-heading-lg: 3rem;
     /* Hero H1 */
+    /* --font-size-heading-md: 2rem; */
     --font-size-heading-md: 2rem;
     /* Section titles */
     --font-size-heading-sm: 1.5rem;
@@ -56,12 +57,11 @@
     /* Slightly darker green for hover states */
 
     /* Background colors */
-
-    --color-bg-light: #F7F4F0;
-    /* Overall soft background */
-    --color-bg-section: #f6efe9;
-    /* Light cream background for sections */
-    --color-bg-card: #FFFFFF;
+    --color-bg: #f6efe9;
+    /* Overall background */
+    --color-bg-section: #FFFFFF;
+    /* background for sections */
+    --color-bg-card: #F7F4F0;
     /* Cards and content blocks */
 
     /* Text colors */
@@ -95,16 +95,17 @@
 
 @media screen and (min-width: 1150px) {
     :root {
+
         /* Font Sizes - Desktop  */
-        --font-size-heading-lg: 2rem;
+        --font-size-heading-lg: 3rem;
         /* Hero H1 */
-        --font-size-heading-md: 1.5rem;
+        --font-size-heading-md: 2rem;
         /* Section titles */
-        --font-size-heading-sm: 1.25rem;
+        --font-size-heading-sm: 1.5rem;
         /* Subheadings */
-        --font-size-body: 0.95rem;
+        --font-size-body: 1.125rem;
         /* Body text */
-        --font-size-small: 0.8rem;
+        --font-size-small: 0.875rem;
         /* Form labels, footnotes */
     }
 

@@ -37,7 +37,7 @@ export const siteConfig = {
     ],
 
     about: {
-        shortDescription: "Hi, I'm a dedicated therapist here to support you on your path to healing and self-discovery. I offer a safe, understanding space where you can feel heard, valued, and empowered. Let’s take the first step toward peace and growth together.",
+        shortDescription: "Hi, I'm a <span> dedicated therapist </span> here to support you on your path to healing and self-discovery. I offer a safe, understanding space where you can feel heard, valued, and empowered. Let’s take the first step toward peace and growth together.",
         longDescription: "Hello and welcome. I’m so glad you’re here.I’m a passionate therapist dedicated to helping individuals find healing, clarity, and strength through life’s most challenging moments. My mission is to create a safe, non-judgmental space where you can feel heard, supported, and empowered to grow. <br/>With a deep understanding of emotional well-being, I work with clients experiencing anxiety, stress, trauma, relationship struggles, and self-esteem issues. Whether you’re navigating a difficult transition or simply looking to better understand yourself, I’m here to walk alongside you. <br/> My approach combines compassion with proven therapeutic techniques to support your unique journey. Together, we’ll explore what’s holding you back and uncover ways to move forward with greater peace and purpose. <br/> You are not alone. Healing starts here.<br/> Let’s begin this journey — one step at a time."
     },
 
