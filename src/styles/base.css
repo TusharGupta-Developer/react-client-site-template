@@ -74,6 +74,7 @@ img {
 }
 
 .section {
+    display: block;
     padding-block: 5rem 2rem;
 }
 
@@ -106,21 +107,21 @@ img {
 
 /*=============== SCROLL BAR ===============*/
 /* WebKit/Blink (Chrome, Edge, Safari) */
- ::-webkit-scrollbar {
-  width: 0.6rem;
-  background-color: var(--scrollbar-track);
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: var(--scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb);
+    background-color: var(--scrollbar-thumb);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--scrollbar-thumb-hover);
+    background-color: var(--scrollbar-thumb-hover);
 }
 
 /* Firefox */
 * {
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
-} 
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
