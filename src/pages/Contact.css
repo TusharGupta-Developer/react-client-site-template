@@ -1,7 +1,7 @@
 /*=============== CONTACT ===============*/
 
 .contact{
-    background-color: var(--color-bg-card);
+    background-color: var(--color-bg-section);
 }
 .contact__container {
   row-gap: 4rem;
@@ -18,7 +18,7 @@
 
 .contact__input {
   padding: 1.25rem;
-  background-color: var(--color-bg-section);
+  background-color: var(--color-bg);
   color: var(--color-text-primary);
   font-weight: var(--font-weight-semibold);
   border: 1px solid var(--color-bg-card);
@@ -29,6 +29,7 @@
 .contact__input:focus,
 .contact__input:valid {
   border-color: var(--color-primary);
+  background-color: var(--color-bg-card);
 }
 
 .contact__input::placeholder {

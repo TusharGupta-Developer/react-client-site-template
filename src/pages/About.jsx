@@ -25,45 +25,28 @@ const About = () => {
 
 
         {/* EXPERIENCE */}
-        <div className="experience grid">
-          <h3 className="info__title">EXPERIENCE</h3>
-
-          <div className="experience__content grid">
-            <div className="experience__data grid">
-              <h2 className="experience__company">Years of Practice / Background</h2>
-              <div>
-                <h3 className="experience__profession">Years of Practice / Background</h3>
-                <span className="experience__date"></span>
-                <p className="experience__description">
-                  Full-stack web development training covering front-end and back-end technologies.
-                </p>
-              </div>
-            </div>
-
-            <div className="experience__data grid">
-              <h2 className="experience__company">E-Commerce Certification</h2>
-              <div>
-                <h3 className="experience__profession">FulL Stack Project</h3>
-                <span className="experience__date"></span>
-                <p className="experience__description">
-                  Earned certification in building E-commerce solutions project using the MERN stack.
-                </p>
-              </div>
-            </div>
-
-            <div className="experience__data grid">
-              <h2 className="experience__company">SoftPro India</h2>
-              <div>
-                <h3 className="experience__profession">WorkShop Completion Certificate</h3>
-                <span className="experience__date"></span>
-                <p className="experience__description">
-                  Completed a workshop on Python, covering essential programming skils & applications.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="about__experience ">
+          <h3 className="info__title">Experience</h3>
+          <ul className="experience__list grid">
+            <li>
+              <strong>Licensed Therapist</strong> — 5+ years providing compassionate therapy focused on healing, personal growth, and empowerment.
+            </li>
+            <li>
+              Specialized in <span>trauma-informed care</span>, helping clients safely process and overcome past experiences.
+            </li>
+            <li>
+              Skilled in building a <span>trusting therapeutic relationship</span> with individuals from diverse backgrounds.
+            </li>
+            <li>
+              Expertise in individual and group therapy sessions that foster self-awareness and resilience.
+            </li>
+            <li>
+              Committed to ongoing professional development to provide the best evidence-based support.
+            </li>
+          </ul>
         </div>
 
+     
       </div>
 
     </section >

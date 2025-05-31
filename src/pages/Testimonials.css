@@ -1,6 +1,6 @@
 /* Testimonial Section */
 .testimonial {
-    background-color: var(--container-color);
+    background-color: var(--color-bg-section);
     /* padding: 4rem 1rem; */
 }
 
@@ -23,6 +23,7 @@
 
 .testimonial__card {
     background-color: var(--surface-color, #ffffff);
+    background-color: var(--color-bg);
     border: 1px solid var(--border-color, #ddd);
     padding: 2rem;
     border-radius: 1rem;

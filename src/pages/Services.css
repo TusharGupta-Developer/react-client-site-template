@@ -1,5 +1,5 @@
 .services {
-  background-color: var(--color-bg-section);
+  background-color: var(--color-bg);
 }
 
 .services__container {
@@ -9,7 +9,7 @@
 }
 
 .services__card {
-  background-color: var(--color-bg-card);
+  background-color: var(--color-bg-section);
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;

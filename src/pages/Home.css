@@ -67,7 +67,8 @@
 }
 
 .home__scroll-text {
-    font-weight: var(--font-semi-bold);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-semibold);
 }
 
 /* Animate scroll icon */
