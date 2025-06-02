@@ -17,6 +17,7 @@
     -webkit-mask-image: linear-gradient(to bottom, hsla(210, 40%, 16%, 1), 60%, transparent 100%);
 
     width: 500px;
+    object-fit: cover;
 }
 
 .home__name {

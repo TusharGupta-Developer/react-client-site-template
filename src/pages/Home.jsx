@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import profileImg from '../assets/img/Profile1.png'; 
+import profileImg from '../assets/img/hero.jpg'; 
 // import { profileImg } from 'src\assets\Profile.png';
 
 function Home() {
@@ -10,6 +10,7 @@ function Home() {
         <div className="home__container container grid">
 
           <img src={profileImg} alt="Profile" className="home__img"/>
+          {/* <img className="hero" src={profileImg} alt="Profile" /> */}
 
             <div className="home__data">
               <h1 className="home__name"> Healing Starts here  </h1>
