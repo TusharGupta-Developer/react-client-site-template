@@ -13,13 +13,11 @@ import ScrollToTop from './components/common/ScrollToTop';
 import Loader from './components/common/Loader';
 
 function App() {
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading or wait for assets
     const handleLoad = () => {
-      setTimeout(() => setLoading(false), 700); // Customize delay
+      setTimeout(() => setLoading(false), 700); // Simulate loading delay
     };
 
     if (document.readyState === "complete") {
@@ -31,24 +29,27 @@ function App() {
     return () => window.removeEventListener("load", handleLoad);
   }, []);
 
-  if (loading) return <Loader />;
   return (
     <>
-      <Header />
-      {/* <main style={{ paddingTop: "7rem", paddingBottom: "7rem" }}> */}
-      <main >
-        <Home />
-        <About />
-        <Services />
-        <Testimonials />
-        <CircularGallery />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollToTop />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Header />
+          <main>
+            <Home />
+            <About />
+            <Services />
+            <Testimonials />
+            <CircularGallery />
+            <Contact />
+          </main>
+          <Footer />
+          <ScrollToTop />
+        </>
+      )}
     </>
   );
 }
 
 export default App;
-
