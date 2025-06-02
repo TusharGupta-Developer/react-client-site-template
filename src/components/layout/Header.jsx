@@ -8,31 +8,31 @@ export default function Header() {
   const [activeLink, setActiveLink] = useState('#home');
 
   useEffect(() => {
-  const handleScroll = () => {
-    const scrollY = window.pageYOffset;
-    const sections = ['home', 'work', 'info', 'services', 'contact'];
+    const handleScroll = () => {
+      const scrollY = window.pageYOffset;
+      const sections = ['home', 'work', 'info', 'services', 'contact'];
 
-    for (let id of sections) {
-      const section = document.getElementById(id);
-      if (section) {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-          setActiveLink(`#${id}`);
+      for (let id of sections) {
+        const section = document.getElementById(id);
+        if (section) {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            setActiveLink(`#${id}`);
+          }
         }
       }
-    }
-    const header = document.getElementById("header");
-    if (header) {
-      if (scrollY > 10) {
-        header.classList.add("blur__header");
-      } else {
-        header.classList.remove("blur__header");
+      const header = document.getElementById("header");
+      if (header) {
+        if (scrollY > 10) {
+          header.classList.add("blur__header");
+        } else {
+          header.classList.remove("blur__header");
+        }
       }
-    }
-  };
+    };
 
-  // Header blur effect logic
+    // Header blur effect logic
 
 
     window.addEventListener('scroll', handleScroll);
@@ -59,23 +59,23 @@ export default function Header() {
             ))}
             <Button />
           </ul>
-             <div className="contact__social grid" style={{marginTop: "1.5rem"}}>
-                    <a href="https://www.linkedin.com/in/tushargupta-dev/" target="_blank" className="contact__social-link">
-                        <i className="ri-linkedin-box-line"></i>
-                        <span>Linkedin</span>
-                    </a>
+          <div className="contact__social grid" style={{ marginTop: "1.5rem" }}>
+            <a href="https://www.linkedin.com/in/tushargupta-dev/" target="_blank" className="contact__social-link">
+              <i className="ri-linkedin-box-line"></i>
+              <span>Linkedin</span>
+            </a>
 
-                    <a href="https://www.instagram.com/king_tushar____?igsh=MTJ1emUxbHZ4MnFrdA==" target="_blank"
-                        className="contact__social-link">
-                        <i className="ri-instagram-line"></i>
-                        <span>Instagram</span>
-                    </a>
+            <a href="https://www.instagram.com/king_tushar____?igsh=MTJ1emUxbHZ4MnFrdA==" target="_blank"
+              className="contact__social-link">
+              <i className="ri-instagram-line"></i>
+              <span>Instagram</span>
+            </a>
 
-                    <a href="https://x.com/TusharDev1111" target="_blank" className="contact__social-link">
-                        <i className="ri-twitter-x-line"></i>
-                        <span>Twitter-X</span>
-                    </a>
-              </div>
+            <a href="https://x.com/TusharDev1111" target="_blank" className="contact__social-link">
+              <i className="ri-twitter-x-line"></i>
+              <span>Twitter-X</span>
+            </a>
+          </div>
           <div className="nav__close" id="nav--close" onClick={() => setShowMenu(false)}>
             <i className="ri-close-large-line"></i>
           </div>
