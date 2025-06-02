@@ -2,6 +2,8 @@ import React from "react";
 import { siteConfig } from "../config/siteConfig";
 import profileImg from "../assets/img/About.png"; // Adjust path if needed
 import "./About.css"; // Optional: you can define styles here
+import Button from "../components/common/Button";
+
 
 const About = () => {
   return (
@@ -16,9 +18,7 @@ const About = () => {
               Hi, I'm a <span>dedicated therapist</span> here to support you on your path to <span>healing</span> and <span>self-discovery</span>. I offer a <span>safe</span>, <span>understanding</span> space where you can feel <span>heard</span>, <span>valued</span>, and <span>empowered</span>. Let’s take the first step toward <span>peace</span> and <span>growth</span> together.
 
             </p>
-            <a href={siteConfig.bookingLink} className="button">
-              Book a Session
-            </a>
+            <Button/>
           </div>
           <img src={profileImg} alt="Therapist" className="about__img" />
         </div>
