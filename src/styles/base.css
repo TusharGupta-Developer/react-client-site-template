@@ -99,7 +99,18 @@ img {
 @media screen and (min-width: 1150px) {
     .container {
         margin-inline: auto;
+        /* padding-inline: 0; */
     }
+
+    .section {
+        /* padding-block: 7rem 5rem; */
+        padding-block: 7rem 5rem;
+    }
+
+    .section__title {
+        margin-bottom: 4rem;
+    }
+
 
 }
 

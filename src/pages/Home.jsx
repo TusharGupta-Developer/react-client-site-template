@@ -13,12 +13,11 @@ function Home() {
           {/* <img className="hero" src={profileImg} alt="Profile" /> */}
 
             <div className="home__data">
-              <h1 className="home__name"> Healing Starts here  </h1>
+              <h1 className="home__name"> Healing Starts here...  </h1>
               <h4 className="home__profession"> You're not alone — therapy can help you heal, grow, and rediscover peace within yourself.</h4>
             </div>
 
-
-            {/* .home__scroll-text|| Recent Works  */}
+            
             <a href="#about" className="home__scroll">
               <div className="home__scroll--box">
                 <i className="ri-arrow-down-line"></i>
@@ -27,8 +26,10 @@ function Home() {
               <span className="home__scroll-text">About Me
               </span>
             </a>
-
         </div>
+            {/* .home__scroll-text|| Recent Works  */}
+            
+
 
 
       </section>

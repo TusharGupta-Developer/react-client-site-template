@@ -1,7 +1,8 @@
 /*=============== HOME ===============*/
 .home {
-    padding-block-start: 1.5rem;
+    /* padding-block-start: 1.5rem; */
     padding-block-start: 4rem;
+
 }
 
 
@@ -55,6 +56,7 @@
 
     justify-self: center;
     margin-top: 3rem;
+    justify-content: center;
 }
 
 .home__scroll--box {
@@ -107,4 +109,43 @@ transform: translateY(0.6rem);: Moves the element down by 0.6rem.
 opacity: 0;: Makes the element fully transparent. */
 }
 
- 
+
+@media screen and (min-width: 1150px) {
+    .home__container {
+        grid-template-columns: 375px 350px;
+        gap: 3rem 16rem;
+        padding-top: 3rem;
+        justify-content: center;
+    }
+
+    .home__img {
+        width: 350px;
+    }
+
+    .home__name {
+        /* line-height: 3rem; */
+        line-height: 5rem;
+        /* margin-bottom: 1.5rem; */
+        margin-bottom: .5rem;
+    }
+
+    .home__profession {
+        /* self */
+        /* font-size: var(--h2-font-size); */
+        font-size: var(--font-size-body);
+        /* self */
+    }
+
+    .home__data {
+        align-self: center;
+        /* self */
+        padding-bottom: 0;
+    }
+
+    .home__scroll {
+        /*spans from the first to the last column.*/
+        grid-column: 1 / -1;
+    }
+
+
+}
