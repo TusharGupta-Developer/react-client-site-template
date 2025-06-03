@@ -131,6 +131,34 @@
     /* for header logo and menu should be show  */
 }
 
+.header__social {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.header__social-link {
+  color: var(--color-text-primary);
+  display: inline-flex;
+  column-gap: 0.25rem;
+  align-items: center;
+  transition: color 0.4s;
+}
+
+.header__social-link > i {
+  font-size: 1.5rem;
+}
+
+.header__social-link span {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-semibold);
+}
+
+.header__social-link:hover {
+  color: var(--color-primary-hover);
+}
+
 @media screen and (min-width: 1150px) {
     .nav {
         height: calc(var(--header-height) + 2rem);
@@ -150,5 +178,16 @@
         flex-direction: row;
         column-gap: 3rem;
         font-size: 1rem;
+        align-items: center;
+    }
+
+    .header__social {
+        display: none;
+    }
+
+    .nav__logo{
+        /* font-size: larger; */
+        font-size: 18px;
+        color: darkgreen;
     }
 }

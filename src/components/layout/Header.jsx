@@ -57,21 +57,21 @@ export default function Header() {
                 </a>
               </li>
             ))}
-            <Button />
+            <Button className="button-hidden"/>
           </ul>
-          <div className="contact__social grid" style={{ marginTop: "1.5rem" }}>
-            <a href="https://www.linkedin.com/in/tushargupta-dev/" target="_blank" className="contact__social-link">
+          <div className="header__social grid" style={{ marginTop: "1.5rem" }}>
+            <a href="https://www.linkedin.com/in/tushargupta-dev/" target="_blank" className="header__social-link">
               <i className="ri-linkedin-box-line"></i>
               <span>Linkedin</span>
             </a>
 
             <a href="https://www.instagram.com/king_tushar____?igsh=MTJ1emUxbHZ4MnFrdA==" target="_blank"
-              className="contact__social-link">
+              className="header__social-link">
               <i className="ri-instagram-line"></i>
               <span>Instagram</span>
             </a>
 
-            <a href="https://x.com/TusharDev1111" target="_blank" className="contact__social-link">
+            <a href="https://x.com/TusharDev1111" target="_blank" className="header__social-link">
               <i className="ri-twitter-x-line"></i>
               <span>Twitter-X</span>
             </a>
