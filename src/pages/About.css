@@ -39,6 +39,10 @@
     text-align: left;
 }
 
+.about__content .info__title{
+    margin-bottom: 1rem;
+}
+
 .about__description {
     /* margin: 1rem 0 2rem; */
     font-size: var(--font-size-body);
@@ -69,11 +73,11 @@ span {
 }
 
 .about__experience {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .about__experience .info__title {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
 }
 
