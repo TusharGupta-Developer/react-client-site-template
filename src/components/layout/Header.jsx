@@ -57,7 +57,7 @@ export default function Header() {
                 </a>
               </li>
             ))}
-            <Button className="button-hidden"/>
+            <Button className="button-hidden" />
           </ul>
           <div className="header__social grid" style={{ marginTop: "1.5rem" }}>
             <a href="https://www.linkedin.com/in/tushargupta-dev/" target="_blank" className="header__social-link">
