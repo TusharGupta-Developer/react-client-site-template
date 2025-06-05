@@ -1,5 +1,5 @@
 // src/components/pages/Testimonial.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { siteConfig } from "../config/siteConfig";
 import './Testimonials.css'
 

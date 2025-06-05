@@ -2,8 +2,10 @@ import React from 'react'
 import './Home.css'
 import profileImg from '../assets/img/hero.jpg'; 
 // import { profileImg } from 'src\assets\Profile.png';
+import useScrollReveal from '../hooks/useScrollReveal';
 
 function Home() {
+  useScrollReveal();
   return (
     <>
       <section className="home section" id="home">

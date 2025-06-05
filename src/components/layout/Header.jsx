@@ -2,8 +2,11 @@ import { useState, useEffect } from 'react';
 import './Header.css';
 import { siteConfig } from './../../config/siteConfig';
 import Button from './../common/Button';
+import useScrollReveal from '../../hooks/useScrollReveal';
 
 export default function Header() {
+  useScrollReveal();
+
   const [showMenu, setShowMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('#home');
 
