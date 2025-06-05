@@ -1,8 +1,9 @@
 /*=============== CONTACT ===============*/
 
-.contact{
-    background-color: var(--color-bg-section);
+.contact {
+  background-color: var(--color-bg-section);
 }
+
 .contact__container {
   row-gap: 4rem;
 }
@@ -61,7 +62,7 @@
   transition: color 0.4s;
 }
 
-.contact__social-link > i {
+.contact__social-link>i {
   font-size: 1.5rem;
 }
 
@@ -81,4 +82,42 @@
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .contact__container {
+    grid-template-columns: 580px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .contact__container {
+    grid-template-columns: 580px;
+    justify-content: center;
+  }
+
+  .contact__group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__area {
+    height: 15rem;
+  }
+
+  .contact__button {
+    width: max-content;
+    justify-self: center;
+    margin-top: 1.5rem;
+    padding: 2.1rem;
+  }
+
+  .contact__message {
+    bottom: 4.5rem;
+  }
+
+  .contact__social {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 5rem;
+  }
 }
