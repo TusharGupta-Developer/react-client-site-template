@@ -28,7 +28,7 @@ const CircularGallery = () => {
     return (
         <section className="gallery section" id="gallery">
             <h2 className="section__title">GALLERY</h2>
-            <div className="container">
+            <div className="container gallery__container">
                 <div className="gallery-scroll-container">
                     <div ref={scrollRef} className="circular-gallery__wrapper">
                         {siteConfig.circularGallery.map((img, index) => (
