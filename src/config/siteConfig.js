@@ -77,11 +77,11 @@ export const siteConfig = {
         //     description: "Supportive space to process grief and find healing.",
         //     icon: "💔",
         // },
-        // {
-        //     title: "Work & Career Counseling",
-        //     description: "Overcome burnout and find purpose in your professional life.",
-        //     icon: "💼",
-        // },
+        {
+            title: "Work & Career Counseling",
+            description: "Overcome burnout and find purpose in your professional life.",
+            icon: "💼",
+        },
     ],
 
     testimonials: {
