@@ -65,15 +65,15 @@
 
 @media screen and (min-width: 1150px) {
     .circular-gallery__image {
-        width: 30rem;
+        width: 41rem;
     }
-}
-
-.gallery-scroll-container {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
+    
+    .gallery-scroll-container {
+        width: 41rem;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
 }
 
 .gallery-controls {
