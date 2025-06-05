@@ -53,13 +53,23 @@
     }
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .circular-gallery__image {
+        width: 25rem;
+    }
+    
+    .gallery-scroll-container {
+        max-width: 25rem;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .circular-gallery__image {
-        width: 30rem;
+        width: 25rem;
     }
 
     .gallery-scroll-container {
-        max-width: 30rem;
+        max-width: 25rem;
     }
 }
 
