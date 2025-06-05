@@ -10,7 +10,7 @@
 
     box-shadow: 0 4px 12px hsla(var(--color-text-primary), 30%, 8%, .3);
     z-index: var(--z-tooltip);
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 
     /* Animation */
     animation: floatUp 1.5s ease-in-out infinite;
@@ -21,6 +21,7 @@
     animation-play-state: paused;
     transform: translateY(-0.5rem);
     background-color: var(--color-text-primary);
+    color: var(--color-bg-section);
 }
 
 
