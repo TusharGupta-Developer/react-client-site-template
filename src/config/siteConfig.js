@@ -133,6 +133,10 @@ export const siteConfig = {
 
     circularGallery: [
         {
+            name: "Dr. Samuel Hayes",
+            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4098152.jpg",
+        },
+        {
             name: "Dr. Sophia Miller",
             image: "assets/img/Gallery/Therapist/pexels-alex-green-5699431.jpg",
         },
@@ -143,10 +147,6 @@ export const siteConfig = {
         {
             name: "Dr. Elena Moore",
             image: "assets/img/Gallery/Therapist/pexels-alex-green-5699469.jpg",
-        },
-        {
-            name: "Dr. Samuel Hayes",
-            image: "assets/img/Gallery/Therapist/pexels-cottonbro-4098152.jpg",
         },
         {
             name: "Dr. Priya Shah",
